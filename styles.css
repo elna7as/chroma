@@ -1,0 +1,140 @@
+Youssef Elnahas, [7/4/2024 3:30 PM]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Designer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1>Welcome to the Graphic Designer Website</h1>
+        <p>I am a professional graphic designer offering unique design services.</p>
+    </section>
+    
+    <section id="services">
+        <h2>Services</h2>
+        <ul>
+            <li>Logo Design</li>
+            <li>Brand Identity Design</li>
+            <li>Brochure Design</li>
+            <li>Web Design</li>
+        </ul>
+    </section>
+    
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-item">
+            <img src="images/sample1.jpg" alt="Work 1">
+            <p>Work 1</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="images/sample2.jpg" alt="Work 2">
+            <p>Work 2</p>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>© 2024 Graphic Designer. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+Youssef Elnahas, [7/4/2024 3:32 PM]
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.portfolio-item {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.portfolio-item img {
+    width: 200px;
+    height: 150px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+label, input, textarea, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
